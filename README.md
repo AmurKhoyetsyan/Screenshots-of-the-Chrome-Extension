@@ -1,3 +1,3 @@
-# Screenshot Extenssion For Chrome
+# Screenshots of the Chrome Extension
 
-<img src="./img/icon.png" alt="icon Screenshot Extenssion For Chrome" />
+<img src="./img/icon.png" alt="icon Screenshots of the Chrome Extension" />
