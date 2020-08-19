@@ -1,0 +1,27 @@
+{
+    "name": "Screenshot",
+    "version": "0.0.1",
+    "description": "create photo page",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./js/content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_icon": "./img/icon.png",
+        "default_popup": "./html/index.html",
+        "default_title": "Tacke photo"
+    },
+    "background": {
+        "scripts": ["./js/background.js"]
+    },
+    "permissions": [
+        "activeTab",
+        "<all_urls>",
+        "tabs",
+        "tabCapture"
+    ]
+}
