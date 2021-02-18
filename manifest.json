@@ -10,8 +10,17 @@
             "run_at": "document_end"
         }
     ],
+    "icons": {
+        "16": "./favicon/favicon_16.png",
+        "24": "./favicon/favicon_24.png",
+        "32": "./favicon/favicon_32.png",
+        "64": "./favicon/favicon_64.png",
+        "128": "./favicon/favicon_128.png",
+        "256": "./favicon/favicon_256.png",
+        "512": "./favicon/favicon_512.png"
+    },
     "browser_action": {
-        "default_icon": "./img/icon.png",
+        "default_icon": "./favicon/favicon_128.png",
         "default_popup": "./html/index.html",
         "default_title": "Tacke photo"
     },
